@@ -1,0 +1,11 @@
+#box1{
+  width: 100px;
+  height: 200px;
+  background-color: deeppink;
+}
+
+#box2{
+  width: 200px;
+  height: 100px;
+  background-color: deepskyblue;
+}

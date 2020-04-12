@@ -1,0 +1,55 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/wallhaven-zmrewg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pay-wrapper{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pay-imgs{
+  width: 420px;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+
+#pay-txt{
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  background-color: deeppink;
+  cursor: pointer;
+}
+
+#pay-txt:hover + #pay-imgs{
+  display: flex;
+}
+
+.pay{
+  width: 200px;
+  height: 200px;
+}
+
+#alipay{
+  background-image: url(../images/alipay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wepay{
+  background-image: url(../images/wepay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

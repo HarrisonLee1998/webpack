@@ -1,0 +1,19 @@
+{
+  "name": "webpack-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HarrisonLee",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
